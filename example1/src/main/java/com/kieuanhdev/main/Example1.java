@@ -14,7 +14,7 @@ public class Example1 {
         System.out.println("oto hang "+ vehicle1.getName());
 
         vehicle1.hello();
-
+        context.close();
 
     }
 }
