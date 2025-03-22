@@ -4,7 +4,7 @@ import com.kieuanhdev.beans.Vehicle;
 import com.kieuanhdev.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class Example2 {
+public class Example3 {
     public static void main(String[] args) {
 
         //chua dung bean
@@ -15,7 +15,7 @@ public class Example2 {
         //dung bean
         var context = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
-        var vehicle1 = context.getBean("vehicle1",Vehicle.class);
+        var vehicle1 = context.getBean("vinfast3",Vehicle.class);
         System.out.println("oto hang "+ vehicle1.getName());
 
 
